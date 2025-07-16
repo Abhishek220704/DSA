@@ -25,6 +25,5 @@ int main() {
     }
 
     cout << "consecutive one's: " << maxconsecutive(arr, n) << endl;
-
     return 0;
 }
