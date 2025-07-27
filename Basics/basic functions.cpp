@@ -6,7 +6,6 @@ void printName(){
     cout << "Hey";
 }
 int main(){
-
     printName();
     return 0;
 }
