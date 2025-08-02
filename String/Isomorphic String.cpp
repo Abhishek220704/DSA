@@ -15,7 +15,6 @@ string isomorphic(string s, string t){
     else{
       map1[c1] = c2;
     }
-
     if(map2.count(c2)){
       if(map2[c2] != c1) return false;
     }
