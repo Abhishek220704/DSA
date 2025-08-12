@@ -12,7 +12,6 @@ string outermost(string s){
   }
   return s.substr(1,s.size() - 2);
 }
-
 int main(){
   string s = "(()())(())(()())";
   cout << outermost(s);
