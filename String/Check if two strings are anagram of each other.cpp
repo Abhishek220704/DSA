@@ -6,7 +6,7 @@ using namespace std;
 bool anagramcheck(count string &s, count string &t){
   if(s.length() != t.length()) return false;
   vector<int> count(26,0);
-  for(size_t i=0; i<= s.length(); i++){
+  for(size_t i=0; i< s.length(); i++){
     count[s[i] - 'a']++;
     count[t[i] - 'a']--;
   }
