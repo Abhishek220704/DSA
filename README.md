@@ -2,7 +2,6 @@
 
 Welcome to my **Daily Data Structures and Algorithms (DSA)** practice repository!  
 I’m on a mission to strengthen my problem-solving skills by consistently solving DSA problems using **C++**.
-
 ---
 
 ## 🧠 Purpose
@@ -12,7 +11,6 @@ This repository is created to:
 - Track my daily progress.
 - Serve as a reference for commonly asked coding problems.
 - Prepare for technical interviews and coding competitions.
-
 ---
 
 ## 📅 Daily Progress
@@ -24,7 +22,6 @@ Each problem is solved with a focus on:
 - Readable and well-commented code.
 
 ---
-
 
 Each folder contains:
 - Problem statement (if needed)
