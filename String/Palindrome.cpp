@@ -6,7 +6,6 @@ string palidrome(string s){
       left ++;
       right --;
     }
-  
     return true;
 }
 int main(){
