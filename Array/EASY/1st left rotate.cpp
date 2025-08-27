@@ -18,12 +18,11 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-
     vector<int> rotated = leftrotate(arr, n);
-
     for (int i = 0; i < n; i++) {
         cout << rotated[i] << " ";
     }
     return 0;
 }
+
 
