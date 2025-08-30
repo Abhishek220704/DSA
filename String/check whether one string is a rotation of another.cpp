@@ -7,7 +7,6 @@ bool rotatestring(const string &s, const string &goal){
   string doubled = s + s;
   return doubled.find(goal) != string::npos;
 }
-
 int main(){
   string s,goal;
   cin >> s;
