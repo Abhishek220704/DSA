@@ -7,7 +7,6 @@ string outermost(string s){
   for(int i=0;i<n;i++){
     if(s[i] == '(') balance++;
     if(s[i] == ')') balance--;
-
     if(balance == 0 && i != s.size() - 1) return s;
   }
   return s.substr(1,s.size() - 2);
