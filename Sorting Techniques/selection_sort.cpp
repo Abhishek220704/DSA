@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 void selection_sort(int arr[], int n){
-    for(int i = 0; i < n - 1; i++){           // Fix 1: loop till n-1, not n-2
+    for(int i = 0; i < n - 1; i++){           
         int mini = i;
-        for(int j = i + 1; j < n; j++){       // Fix 2: j should start from i+1
+        for(int j = i + 1; j < n; j++){       
             if(arr[j] < arr[mini]){
                 mini = j;
             }
@@ -27,3 +27,4 @@ for(int i=0;i<n;i++){
 }
 return 0;
 }
+
